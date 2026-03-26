@@ -14,5 +14,6 @@ api.interceptors.request.use(
     },
     (error) => Promise.reject(error)
 )
+console.log("API URL:", process.env.REACT_APP_API_URL);
 
 export default api;
