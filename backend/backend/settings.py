@@ -79,9 +79,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
-]
+
 # for development only
 CORS_ALLOW_ALL_ORIGINS = True
 
