@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: "https://writenow-full-stack-note-taking-website.onrender.com",
 });
 
 api.interceptors.request.use(
